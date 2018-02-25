@@ -1,4 +1,4 @@
-# android-calculator
+# Android Calculator
 Android sample calculator app in kotlin with unit and instrumentation test cases.
 
 Supports expression evaluation and floating point numbers.
