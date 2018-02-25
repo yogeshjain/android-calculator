@@ -1,0 +1,50 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="FrameLayout">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#e7e7e7</item>
+        <item name="android:layout_margin">0.2dp</item>
+    </style>
+
+    <style name="FrameLayout.weighted">
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="FrameLayout.dark">
+        <item name="android:background">#d7d7d7</item>
+    </style>
+
+    <style name="FrameLayout.dark.weighted">
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="FrameLayout.color">
+        <item name="android:background">#ff9200</item>
+    </style>
+
+    <style name="FrameLayout.color.weighted">
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="FrameLayout.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="FrameLayout.Button.Color">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+</resources>
